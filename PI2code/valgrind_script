@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# to run the memory tests
+
+#valgrind --tool=massif --stacks=yes ./driver_run 1500 800 R
+#valgrind --tool=massif --stacks=yes ./driver_run 1500 800 X
+#valgrind --tool=massif --stacks=yes ./driver_run 1500 800 SI
+#valgrind --tool=massif --stacks=yes ./driver_run 1500 800 SP
+
+#valgrind --tool=massif --stacks=yes ./driver_run 1500 3200 R
+#valgrind --tool=massif --stacks=yes ./driver_run 1500 3200 X
+#valgrind --tool=massif --stacks=yes ./driver_run 1500 3200 SI
+#valgrind --tool=massif --stacks=yes ./driver_run 1500 3200 SP
+
+#valgrind --tool=massif --stacks=yes ./driver_run 1500 12800 R
+#valgrind --tool=massif --stacks=yes ./driver_run 1500 12800 X
+#valgrind --tool=massif --stacks=yes ./driver_run 1500 12800 SI
+#valgrind --tool=massif --stacks=yes ./driver_run 1500 12800 SP
+
+valgrind --tool=massif --stacks=yes ./driver_run 1500 204800 R
+valgrind --tool=massif --stacks=yes ./driver_run 1500 204800 X
+valgrind --tool=massif --stacks=yes ./driver_run 1500 204800 SI
+valgrind --tool=massif --stacks=yes ./driver_run 1500 204800 SP

@@ -1,0 +1,5 @@
+Valgrind Commands:
+brownpi2@brownpi2-desktop:~/Desktop/CS6490 - Lightweight Cryptos/TestBed$ valgrind --tool=massif --stacks=yes ./driver_run 1500 800 X
+
+brownpi2@brownpi2-desktop:~/Desktop/CS6490 - Lightweight Cryptos/TestBed$ ms_print massif.out.4802 
+
